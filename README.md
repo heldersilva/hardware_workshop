@@ -1,6 +1,6 @@
 # Hitchhiker’s Guide to Hardware Maintenance
 
-![Hardware Maintenance](psc-hhm-logo.jpg)
+![Hardware Maintenance](psc-hhm-logo.png)
 
 This is the pdf for my [Porto Summer of Code workshop](https://portosummerofcode.com/workshops/hw).
 
