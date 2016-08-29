@@ -1,9 +1,19 @@
-Hitchhiker’s Guide to Hardware Maintenance
+# Hitchhiker’s Guide to Hardware Maintenance
 
-This is the pdf for my Porto Summer of Code workshop.
+![Hardware Maintenance](psc-hhm-logo.jpg)
+This is the pdf for my [Porto Summer of Code workshop](https://portosummerofcode.com/workshops/hw).
 
 Written using the [beamer](https://en.wikipedia.org/wiki/Beamer_(LaTeX)) document class.
 
-How to:
-  - make (generates pdf file from tex file)
-  - make clean (to clean all aux files)
+## How to:
+
+Generate document
+
+```shell
+make
+```
+
+Clean auxilary LaTeX files
+```shell
+make clean
+```
