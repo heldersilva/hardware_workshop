@@ -12,6 +12,9 @@
 
 \documentclass{beamer}
 \usepackage[utf8]{inputenc}
+\usepackage[UKenglish]{babel}
+\usepackage{biblatex}
+\addbibresource{presentation.bib}
 
 % There are many different themes available for Beamer. A comprehensive
 % list with examples is given here:
@@ -77,12 +80,12 @@
 
 % Delete this, if you do not want the table of contents to pop up at
 % the beginning of each subsection:
-\AtBeginSubsection[]
-{
-  \begin{frame}<beamer>{Outline}
-    \tableofcontents[currentsection,currentsubsection]
-  \end{frame}
-}
+% \AtBeginSubsection[]
+% {
+%   \begin{frame}<beamer>{Outline}
+%     \tableofcontents[currentsection,currentsubsection]
+%   \end{frame}
+% }
 
 % Let's get started
 \begin{document}
@@ -96,93 +99,44 @@
   % You might wish to add the option [pausesections]
 \end{frame}
 
-% Section and subsections will appear in the presentation overview
-% and table of contents.
-\section{First Main Section}
+\section{Why?}
 
-\subsection{First Subsection}
+\subsection{Performance}
 
-\begin{frame}{First Slide Title}{Optional Subtitle}
-  \begin{itemize}
-  \item {
-    My first point.
-  }
-  \item {
-    My second point.
-  }
-  \end{itemize}
+\begin{frame}{Performance}
 \end{frame}
 
-\subsection{Second Subsection}
+\subsection{Heat}
 
-% You can reveal the parts of a slide one at a time
-% with the \pause command:
-\begin{frame}{Second Slide Title}
-  \begin{itemize}
-  \item {
-    First item.
-    \pause % The slide will pause after showing the first item
-  }
-  \item {   
-    Second item.
-  }
-  % You can also specify when the content should appear
-  % by using <n->:
-  \item<3-> {
-    Third item.
-  }
-  \item<4-> {
-    Fourth item.
-  }
-  % or you can use the \uncover command to reveal general
-  % content (not just \items):
-  \item<5-> {
-    Fifth item. \uncover<6->{Extra text in the fifth item.}
-  }
-  \end{itemize}
+\begin{frame}{Heat}
+Integrated circuits (e.g., CPU and GPU) are the main generators of heat in modern computers. Heat generation can be reduced by efficient design and selection of operating parameters such as voltage and frequency, but ultimately, acceptable performance can often only be achieved by managing significant heat generation.
+
+The dust buildup on this laptop CPU heat sink after three years of use has made the laptop unusable due to frequent thermal shutdowns.
+In operation, the temperature of a computer's components will rise until the heat transferred to the surroundings is equal to the heat produced by the component, that is, when thermal equilibrium is reached. For reliable operation, the temperature must never exceed a specified maximum permissible value unique to each component. For semiconductors, instantaneous junction temperature, rather than component case, heatsink, or ambient temperature is critical.
+
+Cooling can be changed by:
+
+Dust acting as a thermal insulator and impeding airflow, thereby reducing heat sink and fan performance.
+Poor airflow including turbulence due to friction against impeding components such as ribbon cables, or incorrect orientation of fans, can reduce the amount of air flowing through a case and even create localized whirlpools of hot air in the case. In some cases of equipment with bad thermal design, cooling air can easily flow out through \"cooling\" holes before passing over hot components; cooling in such cases can often be improved by blocking of selected holes.
+Poor heat transfer due to poor thermal contact between components to be cooled and cooling devices. This can be improved by the use of thermal compounds to even out surface imperfections, or even by lapping.
 \end{frame}
 
-\section{Second Main Section}
+\subsection{Damage prevention}
 
-\subsection{Another Subsection}
-
-\begin{frame}{Blocks}
-\begin{block}{Block Title}
-You can also highlight sections of your presentation in a block, with it's own title
-\end{block}
-\begin{theorem}
-There are separate environments for theorems, examples, definitions and proofs.
-\end{theorem}
-\begin{example}
-Here is an example of an example block.
-\end{example}
+\begin{frame}{Damage prevention}
+Because high temperatures can significantly reduce life span or cause permanent damage to components, and the heat output of components can sometimes exceed the computer's cooling capacity, manufacturers often take additional precautions to ensure that temperatures remain within safe limits. A computer with thermal sensors integrated in the CPU, motherboard, chipset, or GPU can shut itself down when high temperatures are detected to prevent permanent damage, although this may not completely guarantee long-term safe operation. Before an overheating component reaches this point, it may be \"throttled\" until temperatures fall below a safe point using dynamic frequency scaling technology. Throttling reduces the operating frequency and voltage of an integrated circuit or disables non-essential features of the chip to reduce heat output, often at the cost of slightly or significantly reduced performance. For desktop and notebook computers, throttling is often controlled at the BIOS level. Throttling is also commonly used to manage temperatures in smartphones and tablets, where components are packed tightly together with little to no active cooling, and with additional heat transferred from the hand of the user.[1]
 \end{frame}
 
-% Placing a * after \section means it will not show in the
-% outline or table of contents.
-\section*{Summary}
 
-\begin{frame}{Summary}
-  \begin{itemize}
-  \item
-    The \alert{first main message} of your talk in one or two lines.
-  \item
-    The \alert{second main message} of your talk in one or two lines.
-  \item
-    Perhaps a \alert{third message}, but not more than that.
-  \end{itemize}
-  
-  \begin{itemize}
-  \item
-    Outlook
-    \begin{itemize}
-    \item
-      Something you haven't solved.
-    \item
-      Something else you haven't solved.
-    \end{itemize}
-  \end{itemize}
+\section{How?}
+
+
+\subsection{Questions?}
+
+\begin{frame}{Questions?}
+Go ahead, ask me anything (hardware related \textasciicircum \textasciicircum).
+\printbibliography
 \end{frame}
+
 
 \end{document}
-
