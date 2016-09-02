@@ -13,8 +13,9 @@
 \documentclass{beamer}
 \usepackage[utf8]{inputenc}
 \usepackage[UKenglish]{babel}
-\usepackage{biblatex}
-\addbibresource{presentation.bib}
+
+%\usepackage{biblatex}
+%\addbibresource{presentation.bib}
 
 % There are many different themes available for Beamer. A comprehensive
 % list with examples is given here:
@@ -31,8 +32,8 @@
 %\usetheme{CambridgeUS}
 %\usetheme{Copenhagen}
 %\usetheme{Darmstadt}
-\usetheme{default}
-%\usetheme{Frankfurt}
+%\usetheme{default}
+\usetheme{Frankfurt}
 %\usetheme{Goettingen}
 %\usetheme{Hannover}
 %\usetheme{Ilmenau}
@@ -99,44 +100,104 @@
   % You might wish to add the option [pausesections]
 \end{frame}
 
+\section{What?}
+
+\begin{frame}{Cleaning}
+    \begin{itemize}
+        \item Remove heat sinks (laptops and desktops)
+        \item Clean the fans and air vents
+        \item Change thermal paste
+    \end{itemize}
+\end{frame}
+
 \section{Why?}
 
-\subsection{Performance}
-
-\begin{frame}{Performance}
-\end{frame}
-
 \subsection{Heat}
-
 \begin{frame}{Heat}
-Integrated circuits (e.g., CPU and GPU) are the main generators of heat in modern computers. Heat generation can be reduced by efficient design and selection of operating parameters such as voltage and frequency, but ultimately, acceptable performance can often only be achieved by managing significant heat generation.
-
-The dust buildup on this laptop CPU heat sink after three years of use has made the laptop unusable due to frequent thermal shutdowns.
-In operation, the temperature of a computer's components will rise until the heat transferred to the surroundings is equal to the heat produced by the component, that is, when thermal equilibrium is reached. For reliable operation, the temperature must never exceed a specified maximum permissible value unique to each component. For semiconductors, instantaneous junction temperature, rather than component case, heatsink, or ambient temperature is critical.
-
-Cooling can be changed by:
-
-Dust acting as a thermal insulator and impeding airflow, thereby reducing heat sink and fan performance.
-Poor airflow including turbulence due to friction against impeding components such as ribbon cables, or incorrect orientation of fans, can reduce the amount of air flowing through a case and even create localized whirlpools of hot air in the case. In some cases of equipment with bad thermal design, cooling air can easily flow out through \"cooling\" holes before passing over hot components; cooling in such cases can often be improved by blocking of selected holes.
-Poor heat transfer due to poor thermal contact between components to be cooled and cooling devices. This can be improved by the use of thermal compounds to even out surface imperfections, or even by lapping.
+    Dust acts as a thermal insulator and reduces airflow, thereby reducing heat sink and fan performance.
+    \newline
+    \newline
+    Poor heat transfer due to poor thermal contact between components to be cooled and cooling devices.
 \end{frame}
 
-\subsection{Damage prevention}
+\subsection{Throttle}
+\begin{frame}{Throttle}
+    Because high temperatures can significantly reduce life span or cause permanent damage to components, and the heat output of components can sometimes exceed the computer's cooling capacity, manufacturers often take additional precautions to ensure that temperatures remain within safe limits.
+    \newline
+    \newline
+    Throttling reduces the operating frequency and voltage of an integrated circuit or disables non-essential features of the chip to reduce heat output, often at the cost of slightly or significantly reduced performance.
+\end{frame}
 
 \begin{frame}{Damage prevention}
-Because high temperatures can significantly reduce life span or cause permanent damage to components, and the heat output of components can sometimes exceed the computer's cooling capacity, manufacturers often take additional precautions to ensure that temperatures remain within safe limits. A computer with thermal sensors integrated in the CPU, motherboard, chipset, or GPU can shut itself down when high temperatures are detected to prevent permanent damage, although this may not completely guarantee long-term safe operation. Before an overheating component reaches this point, it may be \"throttled\" until temperatures fall below a safe point using dynamic frequency scaling technology. Throttling reduces the operating frequency and voltage of an integrated circuit or disables non-essential features of the chip to reduce heat output, often at the cost of slightly or significantly reduced performance. For desktop and notebook computers, throttling is often controlled at the BIOS level. Throttling is also commonly used to manage temperatures in smartphones and tablets, where components are packed tightly together with little to no active cooling, and with additional heat transferred from the hand of the user.[1]
+    Most components can shut themselves down when high temperatures are detected to prevent permanent damage.
+    \newline
+    \newline
+    This may not completely guarantee long-term safe operation.
 \end{frame}
-
 
 \section{How?}
 
-
-\subsection{Questions?}
-
-\begin{frame}{Questions?}
-Go ahead, ask me anything (hardware related \textasciicircum \textasciicircum).
-\printbibliography
+\begin{frame}{Disassembly}
+    \begin{itemize}
+        \item Search for "[model] service manual" on youtube/google
+        \item Whatch the video (more than once)
+        \item ????
+        \item Profit
+    \end{itemize}
 \end{frame}
 
+\subsection{Consumables}
+
+\begin{frame}{Consumables}
+    \begin{itemize}
+      \item Alcohol (70\% solution is enough but the higher the percentage the better)
+      \item Cotton swabs/balls
+      \item Paper towel
+      \item Thermal paste
+      \item Thermal pads
+    \end{itemize}
+\end{frame}
+
+\subsection{Tools}
+
+\begin{frame}{Opening}
+    \begin{itemize}
+        \item ESD safe Gloves
+        \item Anti-Static Wrist Strap
+        \item Screwdriver
+        \item Guitar picks
+        \item Tweezers
+        \item Magnetic pad (optional)
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Cleaning}
+    \begin{itemize}
+        \item Anti-Static Brush
+        \item Dust Blower
+        \item Microfiber Cleaning Cloths
+    \end{itemize}
+\end{frame}
+
+\subsection{How to}
+
+\begin{frame}{Disassembly}
+\end{frame}
+
+\begin{frame}{Thermal Paste}
+\end{frame}
+
+\begin{frame}{Cleaning}
+\end{frame}
+
+\section{Questions?}
+
+\begin{frame}{Questions?}
+    Go ahead, ask me anything (hardware related \textasciicircum \textasciicircum).
+\end{frame}
+
+\begin{frame}{Let's GO}
+    HANDS ON =D
+\end{frame}
 
 \end{document}
