@@ -2,7 +2,7 @@
 
 <img src="psc-hhm-logo.png" title="Hardware Maintenance" width="100%">
 
-This is the pdf for my [Porto Summer of Code workshop](https://portosummerofcode.com/workshops/hw).
+Presentation for my [Porto Summer of Code workshop](https://portosummerofcode.com/workshops/hw).
 
 Written using the [beamer](https://en.wikipedia.org/wiki/Beamer_(LaTeX)) document class.
 
