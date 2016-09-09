@@ -1,4 +1,5 @@
 all:
+	aspell -t -c presentation.tex
 	pdflatex presentation.tex
 	pdflatex presentation.tex
 	pdflatex presentation.tex
