@@ -1,6 +1,6 @@
 # Hitchhiker’s Guide to Hardware Maintenance
 
-<img src="psc-hhm-logo.png" title="Hardware Maintenance" width="100%">
+<img src="images/psc-hhm-logo.png" title="Hardware Maintenance" width="100%">
 
 Presentation for my [Porto Summer of Code workshop](https://portosummerofcode.com/workshops/hw).
 
